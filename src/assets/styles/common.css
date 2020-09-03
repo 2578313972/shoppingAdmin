@@ -1,0 +1,59 @@
+/** 全局css样式 */
+
+p,
+ul,
+li,
+dl,
+dt,
+dd {
+    margin: 0
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+.h100 {
+    height: 100%;
+}
+
+.w100 {
+    width: 100%;
+}
+
+
+
+/* 清除浮动 */
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.clearfix:before,
+.clearfix:after {
+    display: table;
+    content: '';
+    clear: both;
+}
+
+/* 对齐方式 text-align center left right*/
+
+.text-align-c {
+    text-align: center
+}
+
+.text-align-l {
+    text-align: left
+}
+
+.text-align-r {
+    text-align: right
+}
